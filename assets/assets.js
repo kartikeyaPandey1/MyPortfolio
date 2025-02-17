@@ -88,7 +88,7 @@ export const workData = [
 
     },
     {
-        title: 'Frontened Project',
+        title: 'Frontend Project',
         description: 'Spotify Clone',
         bgImage: '/spotify-image.png',
         link: 'https://netflix-clone-git-main-kartikeya-pandeys-projects.vercel.app'
@@ -98,13 +98,14 @@ export const workData = [
         title: 'Web Dev Project',
         description: 'Apple Website',
         bgImage: '/Apple-img.jpg',
-        link:'http://localhost:5173/'
+        link:'https://apple-titanium-725y.vercel.app'
+
     },
     {
         title: 'Web Dev Project',
         description: 'Portfolio Website',
         bgImage: '/work-4.png',
-        link:'http://localhost:3000/'
+        link:'http://my-portfolio-psi-ashy-58.vercel.app'
     },
 ]
 

@@ -45,7 +45,7 @@ const About = (isDarkMode) => {
                 transition={{duration:0.6,delay:0.8}}
                 
                 className='flex-1'>
-                    <p>I am a frontened developer having experience in many frontened skills and trying to upskill everyday. With a keen eye for design and a love for clean, efficient code, I aim to build seamless digital experiences that not only look great but function flawlessly across all devices.</p>
+                    <p>I am a frontend developer having experience in many frontend skills and trying to upskill everyday. With a keen eye for design and a love for clean, efficient code, I aim to build seamless digital experiences that not only look great but function flawlessly across all devices.</p>
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl py-2'>
                         {infoList.map(({icon,title,iconDark,description},index)=>(
                             <li key={index} className='border-[0.5px] border-gray-500 rounded-xl p-6 cursor-pointer hover:bg-LightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' >
