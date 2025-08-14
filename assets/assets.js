@@ -36,9 +36,13 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import myProfile from './myProfile.jpg';
+import appwrite from './true.png';
+import githubLogo from './github-logo.png';
 
 
 export const assets = {
+    githubLogo,
+    appwrite,
     myProfile,
     user_image,
     code_icon,
@@ -81,10 +85,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Netflix Clone ',
+        title: 'Web dev Project',
+        description: 'Movie App',
         bgImage: '/netflix-background.jpg',
-        link:'netflix-clone-kartikeya-pandeys-projects.vercel.app'
+        link:'https://movie-project-6bov.vercel.app/'
 
     },
     {
@@ -117,11 +121,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js,motion,gsap,3js.' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'TechStack', description: 'HTML, CSS, JavaScript React Js, Next Js,motion,gsap,3js.' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E in Electronics and Communication Engineering.' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.appwrite, assets.githubLogo, assets.git
 ];

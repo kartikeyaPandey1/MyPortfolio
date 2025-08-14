@@ -38,7 +38,7 @@ const Header = () => {
       whileInView={{y:0,opacity:1}}
       transition={{duration:0.8,delay:0.9}}
       className='max-w-2xl mx-auto'>
-        I am a frontend developer from India having knowledge in various frontened skills.
+        I'm a frontend developer based in India with expertise in various frontend technologies. I love building user-friendly interfaces and bringing designs to life with clean, efficient code. 
       </motion.p>
       <div className=' flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a
@@ -52,7 +52,7 @@ const Header = () => {
         transition={{duration:0.8,delay:1}}
 
         
-        className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black bg-white' href='/my-resume.pdf' download> my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
+        className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black bg-white' href="/CurrentResume.pdf" download> my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
       </div>
     </div>
   )

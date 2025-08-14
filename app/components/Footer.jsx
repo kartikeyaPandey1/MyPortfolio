@@ -20,10 +20,10 @@ const Footer = () => {
             </p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li>
-                    <a target='_blank' href="">Github</a>
+                    <a target='_blank' href="https://github.com/kartikeyaPandey1">Github</a>
                 </li>
                 <li>
-                    <a target='_blank' href="">Linkedin</a>
+                    <a target='_blank' href="https://www.linkedin.com/in/kartikeya-pandey-451b97289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
                 </li>
                 <li>
                     <a target='_blank' href="">Twitter</a>
