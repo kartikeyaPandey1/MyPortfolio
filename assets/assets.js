@@ -38,9 +38,24 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import myProfile from './myProfile.jpg';
 import appwrite from './true.png';
 import githubLogo from './github-logo.png';
-
+import reactLogo from './reactLogo.png';
+import tailwindLogo from './tailwindLogo.png';
+import javascriptLogo from './javascript.png';
+import htmlLogo from './htmlogo.png';
+import nodeLogo from './nodeLogo.png';
+import expressLogo from './expressLogo.png';
+import nextLogo from './Next.js.png';
+import leetcode from './leetcode.png';
 
 export const assets = {
+    leetcode,
+    nextLogo,
+    reactLogo,
+    tailwindLogo,
+    javascriptLogo,
+    htmlLogo,
+    nodeLogo,
+    expressLogo,
     githubLogo,
     appwrite,
     myProfile,
@@ -85,15 +100,15 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Web dev Project',
-        description: 'Movie App',
+        title: 'Movie App',
+        description: 'An app showcasing the most trending movies....',
         bgImage: '/netflix-background.jpg',
         link:'https://movie-project-6bov.vercel.app/'
 
     },
     {
         title: 'Frontend Project',
-        description: 'Spotify Clone',
+        description: 'Spotify App',
         bgImage: '/spotify-image.png',
         link: 'https://netflix-clone-git-main-kartikeya-pandeys-projects.vercel.app'
 
@@ -113,12 +128,29 @@ export const workData = [
     },
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-   // { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-   // { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+export const techStackData = [
+  {
+    category: 'Frontend',
+    techs: [
+      { icon: assets.reactLogo, title: 'React' },
+      { icon: assets.nextLogo, title: 'Next.js' },
+      { icon: assets.tailwindLogo, title: 'Tailwind CSS' },
+      { icon: assets.javascriptLogo, title: 'JavaScript' },
+      { icon: assets.htmlLogo, title: 'HTML' },
+    ]
+  },
+  {
+    category: 'Backend',
+    techs: [
+      { icon: assets.nodeLogo, title: 'Node.js' },
+      { icon: assets.expressLogo, title: 'Express.js' },
+      
+       
+    ]
+  }
+];
+
+
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'TechStack', description: 'HTML, CSS, JavaScript React Js, Next Js,motion,gsap,3js.' },

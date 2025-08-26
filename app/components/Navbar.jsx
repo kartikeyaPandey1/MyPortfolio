@@ -45,7 +45,7 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
         <ul className="hidden md:flex  items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent">
             <li><a href="#top">Home</a></li>
             <li><a href="#about">about me</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#services">TechStack</a></li>
             <li><a href="#work">My work</a></li>
             <li><a href="#contact">Contact me</a></li>
         </ul>

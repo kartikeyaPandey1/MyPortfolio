@@ -28,6 +28,10 @@ const Footer = () => {
                 <li>
                     <a target='_blank' href="">Twitter</a>
                 </li>
+                <li>
+                    <a target='_blank' href="https://leetcode.com/u/kartikeyapandey_/">Leetcode</a>
+
+                </li>
             </ul>
         </div>
       
