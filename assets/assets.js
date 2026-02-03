@@ -46,86 +46,94 @@ import nodeLogo from './nodeLogo.png';
 import expressLogo from './expressLogo.png';
 import nextLogo from './Next.js.png';
 import leetcode from './leetcode.png';
+import numpy from './NumPy.png';
+import pandas from './Pandas.png';
+import jupyter from './Jupyter.png';
+import matplotlib from './Matplotlib.png';
 
 export const assets = {
-    leetcode,
-    nextLogo,
-    reactLogo,
-    tailwindLogo,
-    javascriptLogo,
-    htmlLogo,
-    nodeLogo,
-    expressLogo,
-    githubLogo,
-    appwrite,
-    myProfile,
-    user_image,
-    code_icon,
-    code_icon_dark,
-    edu_icon,
-    edu_icon_dark,
-    project_icon,
-    project_icon_dark,
-    vscode,
-    firebase,
-    figma,
-    git,
-    mongodb,
-    right_arrow_white,
-    logo,
-    logo_dark,
-    mail_icon,
-    mail_icon_dark,
-    profile_img,
-    download_icon,
-    hand_icon,
-    header_bg_color,
-    moon_icon,
-    sun_icon,
-    arrow_icon,
-    arrow_icon_dark,
-    menu_black,
-    menu_white,
-    close_black,
-    close_white,
-    web_icon,
-    mobile_icon,
-    ui_icon,
-    graphics_icon,
-    right_arrow,
-    send_icon,
-    right_arrow_bold,
-    right_arrow_bold_dark
+  numpy,
+  pandas,
+  jupyter,
+  matplotlib,
+  leetcode,
+  nextLogo,
+  reactLogo,
+  tailwindLogo,
+  javascriptLogo,
+  htmlLogo,
+  nodeLogo,
+  expressLogo,
+  githubLogo,
+  appwrite,
+  myProfile,
+  user_image,
+  code_icon,
+  code_icon_dark,
+  edu_icon,
+  edu_icon_dark,
+  project_icon,
+  project_icon_dark,
+  vscode,
+  firebase,
+  figma,
+  git,
+  mongodb,
+  right_arrow_white,
+  logo,
+  logo_dark,
+  mail_icon,
+  mail_icon_dark,
+  profile_img,
+  download_icon,
+  hand_icon,
+  header_bg_color,
+  moon_icon,
+  sun_icon,
+  arrow_icon,
+  arrow_icon_dark,
+  menu_black,
+  menu_white,
+  close_black,
+  close_white,
+  web_icon,
+  mobile_icon,
+  ui_icon,
+  graphics_icon,
+  right_arrow,
+  send_icon,
+  right_arrow_bold,
+  right_arrow_bold_dark
 };
 
 export const workData = [
-    {
-        title: 'Movie App',
-        description: 'An app showcasing the most trending movies....',
-        bgImage: '/netflix-background.jpg',
-        link:'https://movie-project-6bov.vercel.app/'
+  {
+    title: 'Movie App',
+    description: 'An app showcasing the most trending movies....',
+    bgImage: '/netflix-background.jpg',
+    link: 'https://movie-project-6bov.vercel.app/'
 
-    },
-    {
-        title: 'Frontend Project',
-        description: 'Spotify App',
-        bgImage: '/spotify-image.png',
-        link: 'https://netflix-clone-git-main-kartikeya-pandeys-projects.vercel.app'
+  },
+{
+  title: 'Data Analytics Project',
+  description: 'Data Analysis & Visualization using Python',
+  bgImage: '/analysis.png',
+  link: 'https://github.com/kartikeyaPandey1/sales-data-analysis-python'
+}
+,
+  {
+    title: 'Web Dev Project',
+    description: 'Apple Website',
+    bgImage: '/Apple-img.jpg',
+    link: 'https://apple-titanium-725y.vercel.app'
 
-    },
-    {
-        title: 'Web Dev Project',
-        description: 'Apple Website',
-        bgImage: '/Apple-img.jpg',
-        link:'https://apple-titanium-725y.vercel.app'
-
-    },
-    {
-        title: 'Web Dev Project',
-        description: 'Portfolio Website',
-        bgImage: '/work-4.png',
-        link:'http://my-portfolio-psi-ashy-58.vercel.app'
-    },
+  },
+  {
+    title: 'Web Dev Project',
+    description: 'Portfolio Website',
+    bgImage: '/work-4.png',
+    link: 'http://my-portfolio-psi-ashy-58.vercel.app'
+  },
 ]
 
 export const techStackData = [
@@ -144,20 +152,29 @@ export const techStackData = [
     techs: [
       { icon: assets.nodeLogo, title: 'Node.js' },
       { icon: assets.expressLogo, title: 'Express.js' },
-      
-       
+
+
     ]
-  }
+  },
+  {
+    category: "Data & Analysis",
+    techs: [
+      { icon: assets.numpy, title: "NumPy" },
+      { icon: assets.pandas, title: "Pandas" },
+      { icon: assets.matplotlib, title: "Matplotlib" },
+      { icon: assets.jupyter, title: "Jupyter Notebook" },
+    ],
+  },
 ];
 
 
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'TechStack', description: 'HTML, CSS, JavaScript React Js, Next Js,motion,gsap,3js.' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E in Electronics and Communication Engineering.' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+  { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'TechStack', description: 'HTML, CSS, JavaScript React Js, Next Js,motion,gsap,3js.' },
+  { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E in Electronics and Communication Engineering.' },
+  { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.appwrite, assets.githubLogo, assets.git
+  assets.vscode, assets.appwrite, assets.githubLogo, assets.git
 ];

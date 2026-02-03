@@ -31,14 +31,14 @@ const Header = () => {
       transition={{duration:0.9,delay:0.7}}
       
       className='text-3xl sm:text-6xl lg:text-[66px] '>
-        I am a Frontend developer based in India.
+        I build modern, performant web experiences.
       </motion.h1>
       <motion.p 
       initial={{y:-20,opacity:0}}
       whileInView={{y:0,opacity:1}}
       transition={{duration:0.8,delay:0.9}}
       className='max-w-2xl mx-auto'>
-        I'm a frontend developer based in India with expertise in various frontend technologies. I love building user-friendly interfaces and bringing designs to life with clean, efficient code. 
+        Frontend Developer from India, crafting clean UI with React & Next.js and backing it with data-driven insights using Python.
       </motion.p>
       <div className=' flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a

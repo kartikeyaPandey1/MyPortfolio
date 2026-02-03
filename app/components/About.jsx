@@ -45,12 +45,49 @@ const About = (isDarkMode) => {
                     transition={{ duration: 0.6, delay: 0.8 }}
 
                     className='flex-1'>
-                    <p className='text-lg  dark:white'>I’m a pre-final year Electronics and Communication Engineering student at <span className="font-semibold text-indigo-600">SLIET Longowal</span>, with a deep passion for building impactful and user-friendly web applications. I specialize in modern frontend technologies <span className="font-semibold text-indigo-600">React</span> and <span className="font-semibold text-indigo-600">Next.js</span>
-                        , and I enjoy designing engaging  <span className="font-semibold text-indigo-600">UI animations and interactive user experiences</span> that bring applications to life.
+                    <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+  I’m a pre-final year <span className="font-semibold text-red-600">Electronics and Communication Engineering</span> student at{" "}
+  <span className="font-semibold text-indigo-600">SLIET Longowal</span>, with a deep passion for building impactful and user-friendly web applications. 
+  I specialize in modern frontend technologies{" "}
+  <span className="font-semibold text-indigo-600">React</span> and{" "}
+  <span className="font-semibold text-indigo-600">Next.js</span>, and I enjoy designing engaging{" "}
+  <span className="font-semibold text-indigo-600">UI animations and interactive user experiences</span>{" "}
+  that bring applications to life.
+</p>
 
-                        Alongside my frontend skills, I have a strong foundation in <span className="font-semibold text-red-600">Data Structures and Algorithms</span>, having solved <span className="font-semibold text-indigo-600">200+ problems on LeetCode</span> and <span className="font-semibold text-red-600">300+ problems overall</span> across multiple coding platforms. This rigorous practice has sharpened my problem-solving abilities and enhanced my logical thinking, which I apply while developing scalable and efficient applications.
+<p className="text-gray-600 dark:text-gray-300 leading-relaxed mt-4">
+  Alongside frontend development, I have a strong foundation in{" "}
+  <span className="font-semibold text-red-600">Data Structures and Algorithms</span>, having solved{" "}
+  <span className="font-semibold text-indigo-600">200+ problems on LeetCode</span> and{" "}
+  <span className="font-semibold text-red-600">300+ problems overall</span>{" "}
+  across multiple coding platforms. This rigorous practice has sharpened my problem-solving abilities 
+  and strengthened my logical thinking, which I apply while building{" "}
+  <span className="font-semibold text-indigo-600">scalable and efficient applications</span>.
+</p>
 
-                        I am always eager to learn, explore new technologies, and experiment with innovative ideas. Turning concepts into functional digital experiences excites me, whether it’s building responsive websites, implementing interactive features, or optimizing application performance. My goal is to create software that not only works seamlessly but also provides value and a delightful experience to users.</p>
+<p className="text-gray-600 dark:text-gray-300 leading-relaxed mt-4">
+  In addition, I have hands-on experience in{" "}
+  <span className="font-semibold text-red-600">Data Analytics</span>, working with{" "}
+  <span className="font-semibold text-indigo-600">Python</span>,{" "}
+  <span className="font-semibold text-indigo-600">NumPy</span>,{" "}
+  <span className="font-semibold text-indigo-600">Pandas</span>, and{" "}
+  <span className="font-semibold text-indigo-600">Matplotlib</span>{" "}
+  to analyze data, extract insights, and visualize meaningful patterns. I enjoy combining{" "}
+  <span className="font-semibold text-indigo-600">data-driven thinking</span> with frontend development 
+  to build applications that are both visually engaging and technically sound.
+</p>
+
+<p className="text-gray-600 dark:text-gray-300 leading-relaxed mt-4">
+  I am always eager to learn, explore new technologies, and experiment with innovative ideas. Turning 
+  concepts into functional digital experiences excites me—whether it’s{" "}
+  <span className="font-semibold text-indigo-600">building responsive websites</span>,{" "}
+  <span className="font-semibold text-indigo-600">implementing interactive features</span>,{" "}
+  <span className="font-semibold text-indigo-600">analyzing data</span>, or{" "}
+  <span className="font-semibold text-indigo-600">optimizing application performance</span>. 
+  My goal is to create software that not only works seamlessly but also delivers real value and a 
+  delightful experience to users.
+</p>
+
                         
 
 
